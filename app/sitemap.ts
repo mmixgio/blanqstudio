@@ -3,7 +3,7 @@ import { locales } from "./data/dictionaries";
 import { site } from "./data/site";
 
 /* Route pubbliche del sito ("" = home) */
-const sections = ["", "/work", "/about"];
+const sections = ["", "/work", "/gallery", "/about"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return locales.flatMap((lang) =>

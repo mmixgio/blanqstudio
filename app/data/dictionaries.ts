@@ -10,6 +10,7 @@ const dictionaries = {
       links: [
         { href: "/", label: "Home" },
         { href: "/work", label: "Progetti" },
+        { href: "/gallery", label: "Galleria" },
         { href: "/about", label: "About" },
       ],
       contact: "Scrivimi",
@@ -32,6 +33,12 @@ const dictionaries = {
       subheading:
         "La galleria dei lavori di BlanqStudio: siti, interfacce ed esperimenti tra web e design.",
       visit: "Visita Sito",
+    },
+    gallery: {
+      heading: "Galleria",
+      subheading:
+        "Tutti i visual dei progetti in un'unica parete: e-commerce, cliniche, boutique, app e landing page.",
+      openImage: "Apri l'immagine a piena risoluzione",
     },
     about: {
       heading: "About",
@@ -64,6 +71,7 @@ const dictionaries = {
       links: [
         { href: "/", label: "Home" },
         { href: "/work", label: "Projects" },
+        { href: "/gallery", label: "Gallery" },
         { href: "/about", label: "About" },
       ],
       contact: "Get in touch",
@@ -86,6 +94,12 @@ const dictionaries = {
       subheading:
         "The BlanqStudio gallery: websites, interfaces and experiments between web and design.",
       visit: "Visit Site",
+    },
+    gallery: {
+      heading: "Gallery",
+      subheading:
+        "All the project visuals on a single wall: e-commerce, clinics, boutiques, apps and landing pages.",
+      openImage: "Open the full-resolution image",
     },
     about: {
       heading: "About",
